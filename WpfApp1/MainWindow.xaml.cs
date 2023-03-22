@@ -24,5 +24,10 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void SubmitButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show($"Hello {FirstNameText.Text}");
+        }
     }
 }
